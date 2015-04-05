@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>
+			Hey
+		</title>
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="js/foundation.js"></script>
+		<script src="js/foundation.reveal.js"></script>
+		<script src="js/app.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/foundation.min.css">
+	</head>
+	<body>
+		<form class="formurl" method="post" action="/checkurl">
+			<input class="url" type="text" name="url">
+ 			<input class="submit" type="submit" value="OK">
+		</form>
+		<div id="reDirect" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+		  <h2 id="modalTitle">Redirect page</h2>
+		  <form class="process" method="post">
+			  <input type="text" class="reurl" name="reurl">
+			  <input type="button" class="next" value="Next">
+		  </form>
+		</div>
+		<script>
+		  $(document).foundation();
+		</script>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "FormEmbed",
+  "version": "1.0.0",
+  "description": "Embed Google form into any website you want ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohamed Mahrous <m.mahrous.94@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3",
+    "jade": "^1.9.2"
+  }
+}
