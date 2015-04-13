@@ -25,10 +25,15 @@ $(document).ready(function() {
 		  data: "reurl="+reurl,
 		  success: function(res){
 		  	if (res) {
-		  		alert("done");
+		  		process("saasds");
 		  	};
 		  }
 		});
 	});
 	
+	function process(hi){
+
+		alert(hi);
+	} 
+
 });
